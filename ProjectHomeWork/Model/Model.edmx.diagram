@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="24208a9009f647b4a301ecd5ec903226" Name="Diagram1">
+        <EntityTypeShape EntityType="DbHomeWorkModel.DealSet" Width="1.5" PointX="8.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbHomeWorkModel.DemandSet" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbHomeWorkModel.PersonSet" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbHomeWorkModel.RealEstateFilterSet" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbHomeWorkModel.RealEstateFilterSet_ApartmentFilter" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbHomeWorkModel.RealEstateFilterSet_HouseFilter" Width="1.5" PointX="3" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbHomeWorkModel.RealEstateFilterSet_LandFilter" Width="1.5" PointX="3" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbHomeWorkModel.RealEstateSet" Width="1.5" PointX="3.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbHomeWorkModel.RealEstateSet_Apartment" Width="1.5" PointX="6" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbHomeWorkModel.RealEstateSet_House" Width="1.5" PointX="6" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbHomeWorkModel.RealEstateSet_Land" Width="1.5" PointX="6" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbHomeWorkModel.SupplySet" Width="1.5" PointX="6" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbHomeWorkModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <AssociationConnector Association="DbHomeWorkModel.DealDemand" ManuallyRouted="false" />
+        <AssociationConnector Association="DbHomeWorkModel.DealSupply" ManuallyRouted="false" />
+        <AssociationConnector Association="DbHomeWorkModel.DemandAgent" ManuallyRouted="false" />
+        <AssociationConnector Association="DbHomeWorkModel.DemandClient" ManuallyRouted="false" />
+        <AssociationConnector Association="DbHomeWorkModel.DemandRealEstateFilter" ManuallyRouted="false" />
+        <AssociationConnector Association="DbHomeWorkModel.SupplyAgent" ManuallyRouted="false" />
+        <AssociationConnector Association="DbHomeWorkModel.SupplyClient" ManuallyRouted="false" />
+        <AssociationConnector Association="DbHomeWorkModel.FK_ApartmentFilter_inherits_RealEstateFilter" ManuallyRouted="false" />
+        <AssociationConnector Association="DbHomeWorkModel.FK_HouseFilter_inherits_RealEstateFilter" ManuallyRouted="false" />
+        <AssociationConnector Association="DbHomeWorkModel.FK_LandFilter_inherits_RealEstateFilter" ManuallyRouted="false" />
+        <AssociationConnector Association="DbHomeWorkModel.FK_Apartment_inherits_RealEstate" ManuallyRouted="false" />
+        <AssociationConnector Association="DbHomeWorkModel.FK_House_inherits_RealEstate" ManuallyRouted="false" />
+        <AssociationConnector Association="DbHomeWorkModel.FK_Land_inherits_RealEstate" ManuallyRouted="false" />
+        <AssociationConnector Association="DbHomeWorkModel.SupplyRealEstate" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
